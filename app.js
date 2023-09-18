@@ -1,12 +1,16 @@
+//importação dos módulos
 const express = require('express');
 const checkListRouter = require('./src/routes/checklist');
 
+//criação de uma instância do aplicativo Express
 const app = express();
+//Middleware para análise de JSON
 app.use(express.json());
 
+//Roteamento
 app.use('/checklists', checkListRouter);
 
-
+//inicialização do servidor
 app.listen(3000, () => {
     console.log('Servidor rodando...');
 })
