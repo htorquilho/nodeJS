@@ -1,6 +1,5 @@
-# NodeJS
+# Manipulando arquivos com o nodeJS - #OneBitCode
 
-Manipulando arquivos com o NodeJS - OneBitCode
 
 1. Criação de um novo projeto no NodeJS e do arquivo 'packge.json':
    - npm init
