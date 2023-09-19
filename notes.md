@@ -86,5 +86,3 @@ Chain of Responsibility
 - Padrão que o Express se baseou
 - Permite a busca por uma resposta para uma determinada requisição
 - Permite que os objetos sejam encadeados, assim, cada objeto verifica se pode enviar uma resposta, caso não possa, passa para o próximo da cadeia
-
-Concentrando rotas...
